@@ -16,8 +16,9 @@ def modulo_complejos(c1):
 def conjugado_complejos(c1):
     return (c1[0],(c1[1]*-1))
 def conversion_polar_cartesiano(r,a):
-    angulo=math.radians(a)
-    c1=r*math.cos(angulo)
-    return 
+    theta= math.radians(a)
+    x = r * math.cos(theta)
+    y = r * math.sin(theta)
+    return (x,y)
 def fase_complejo(c1):
     return (round(math.degrees(math.atan(c1[1]/c1[0])*100))/100)

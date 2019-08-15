@@ -11,25 +11,25 @@ class TestDijkstra(unittest.TestCase):
         self.assertEqual(result, (-3,5))
     def test_resta_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna la resta entre un par de numeros complejos
         """
         result = resta_complejos((5,2),(4,-2))
         self.assertEqual(result, (1,4))
     def test_producto_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna el producto entre un par de numeros complejos
         """
         result = producto_complejos((1,2),(5,-2))
         self.assertEqual(result, (9,8))
     def test_division_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna la sdivision entre un par de numeros complejos
         """
         result =division_complejos((5,-3),(2,1))
         self.assertEqual(result,(1.4, -2.2))
     def test_modulo_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna el modulo de numeros complejos
         """
         result =modulo_complejos((8,-3))
         self.assertEqual(result,8.54400374531753)
@@ -47,18 +47,17 @@ class TestDijkstra(unittest.TestCase):
         self.assertEqual(result, (-3,5))
     def test_conjugado_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna el conjugado de numeros complejos
         """
         result =conjugado_complejos((8,-12))
         self.assertEqual(result, (8, 12))
     def test_fase_complejos(self):
         """
-        Este test retorna la suma entre un par de numeros complejos
+        Este test retorna la fase de numeros complejos
         """
         result =fase_complejo((9,-5))
         self.assertEqual(result,-29.05)
     
-
 
 if __name__ == '__main__':
     unittest.main()
