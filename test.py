@@ -37,14 +37,9 @@ class TestDijkstra(unittest.TestCase):
         """
         Este test retorna la suma entre un par de numeros complejos
         """
-        result = suma_complejos((5,2),(-8,3))
-        self.assertEqual(result, (-3,5))
-    def test_CartesianoPolar_complejos(self):
-        """
-        Este test retorna la suma entre un par de numeros complejos
-        """
-        result = suma_complejos((5,2),(-8,3))
-        self.assertEqual(result, (-3,5))
+        result = conversion_polar_cartesiano(4,5)
+        self.assertEqual(result, (3.984778792366982, 0.34862297099063266))
+ 
     def test_conjugado_complejos(self):
         """
         Este test retorna el conjugado de numeros complejos
@@ -55,8 +50,8 @@ class TestDijkstra(unittest.TestCase):
         """
         Este test retorna la fase de numeros complejos
         """
-        result =fase_complejo((9,-5))
-        self.assertEqual(result,-29.05)
+        result =fase_complejo((4,-3))
+        self.assertEqual(result,-36.86989764584402)
     
 
 if __name__ == '__main__':

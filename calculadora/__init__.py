@@ -21,4 +21,5 @@ def conversion_polar_cartesiano(r,a):
     y = r * math.sin(theta)
     return (x,y)
 def fase_complejo(c1):
-    return (round(math.degrees(math.atan(c1[1]/c1[0])*100))/100)
+    theta=(c1[1]/c1[0])
+    return ((math.degrees(math.atan(theta))))
