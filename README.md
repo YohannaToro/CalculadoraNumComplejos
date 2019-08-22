@@ -50,5 +50,6 @@ Cada una de las funciones del programa recibe un par de tuplas o una dependiendo
 #  Ejecutar pruebas y aplicaciòn
 Para ejecutar las pruebas es necesario ejecutar el archivo dirijase al archivo test.py que se encuentra en la raiz del proyecto.
 	- abrir la consola de comando entrar a la carpeta raiz y poner la siguiente linea de comando
+	
 		- python test.py
 Se corre un total de 8 pruebas correspondiente a cada una de las operaciones
