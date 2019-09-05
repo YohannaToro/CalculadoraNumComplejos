@@ -15,7 +15,7 @@ def multiplicacion_escalar_matrices(m1,c1):
         for j in range(len(m1)):
             matriz[i][j]=producto_complejos(m1[i][j],c1)        
     return matriz
-def transpuets(m1):
+def transpuesta(m1):
     matriz=[[() for i in range(len(m1))] for j in range(len(m1))]
     for i in range(len(m1)):
         for j in range(len(m1)):
@@ -28,7 +28,7 @@ def matriz_conjugada(m1):
             m1[i][j]=conjugado_complejos(m1[i][j])       
     return m1
 def matriz_adjunt(m1):
-    return matriz_conjugad(transpuest(m1))
+    return matriz_conjugad(transpuesta(m1))
 def multiplicacion_matrices(x,y):
     matriz=[[() for i in range(max(len(x[0]),len(y[0])))] for j in range(max(len(x),len(y)))]
     for i in range(len(x)):
@@ -44,10 +44,12 @@ def matriz_identidad(m1):
             else: matriz[i][j]=(0,0)
     return matriz
 def matriz_unitaria(m):
-    return multiplicacion_matrices(adjunta(m),m)==matriz_identidad(len(m))
+    return multiplicacion_matrices(matriz_adjunt(m),m)==matriz_identidad(len(m))
 def matriz_hermiltan(m):
     return (m==adjunta(m))
 def accion_matriz():
+    
+    
     return 0
 def norma_matrices():
     return 0

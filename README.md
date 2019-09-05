@@ -46,6 +46,7 @@ Cada una de las funciones del programa recibe un par de tuplas o una dependiendo
 * Python
 # Pre-requisaitos
 * tener instalado python 3 o mayor
+* Si no tiene instalado python siga el siguiente tutorial [https://es.wikihow.com/instalar-Python](https://es.wikihow.com/instalar-Python)
 
 #  Ejecutar pruebas y aplicaciòn
 Para ejecutar las pruebas es necesario ejecutar el archivo dirijase al archivo test.py que se encuentra en la raiz del proyecto.
