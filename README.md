@@ -63,7 +63,8 @@ Abrir terminal y dirgirse a la carpeta calculadora
 ```
 Ejecute el archivo con la siguiente linea de comando
 
-```python CalculadoraBasica.py
+```
+python CalculadoraBasica.py
 ```
 
 ##  Ejecutar pruebas y aplicaciòn
