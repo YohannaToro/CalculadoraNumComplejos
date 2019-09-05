@@ -42,15 +42,33 @@ Cada una de las funciones del programa recibe un par de tuplas o una dependiendo
 			Retornar la fase de un número complejo.
 
 
-# Lenguaje Programación
+## Lenguaje Programación
 * Python
-# Pre-requisaitos
+## Pre-requisaitos
 * tener instalado python 3 o mayor
 * Si no tiene instalado python siga el siguiente tutorial [https://es.wikihow.com/instalar-Python](https://es.wikihow.com/instalar-Python)
+## Instalaciòn y ejecucion del proyecto
+Descargue el repositorio lo puede realizar de dos formas descargando el .zip o usando git 
 
-#  Ejecutar pruebas y aplicaciòn
+En caso de usar git la linea de comando para clonar el repositiorio es:
+
+```
+git clone https://github.com/YohannaToro/CalculadoraNumComplejos.git
+```
+
+Abrir terminal y dirgirse a la carpeta calculadora
+
+```
+\CalculadoraNumComplejos\calculadora
+```
+Ejecute el archivo con la siguiente linea de comando
+
+```python CalculadoraBasica.py
+```
+
+##  Ejecutar pruebas y aplicaciòn
 Para ejecutar las pruebas es necesario ejecutar el archivo dirijase al archivo test.py que se encuentra en la raiz del proyecto.
 	- abrir la consola de comando entrar a la carpeta raiz y poner la siguiente linea de comando
 	
-		- python test.py
+		- python3 test.py
 Se corre un total de 8 pruebas correspondiente a cada una de las operaciones
