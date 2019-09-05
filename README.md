@@ -70,6 +70,10 @@ python CalculadoraBasica.py
 ##  Ejecutar pruebas y aplicaciòn
 Para ejecutar las pruebas es necesario ejecutar el archivo dirijase al archivo test.py que se encuentra en la raiz del proyecto.
 	- abrir la consola de comando entrar a la carpeta raiz y poner la siguiente linea de comando
+	MacOs o Linux
 	
 		- python3 test.py
+	Windows
+		
+		- python test.py
 Se corre un total de 8 pruebas correspondiente a cada una de las operaciones
